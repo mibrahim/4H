@@ -51,7 +51,7 @@ class Ball(pygame.sprite.Sprite):
     def reset(self):
         self.x = random.randrange(50,750)
         self.y = 350.0
-        self.speed=8.0
+        self.speed=1.0
  
         # Direction of ball (in degrees)
         self.direction = random.randrange(-45,45)
@@ -131,15 +131,15 @@ class Player(pygame.sprite.Sprite):
                 name = pygame.key.name(i)
                 if self.number == 1:
                     if name == 'm':
-                        delta = 15
+                        delta = 5
                     if name == 'n':
-                        delta = -15
+                        delta = -5
 
                 if self.number == 2:
                     if name == 'x':
-                        delta = 15
+                        delta = 5
                     if name == 'z':
-                        delta = -15
+                        delta = -5
                         
         # Move x according to the axis. We multiply by 15 to speed up the movement.
         self.rect.x=int(self.rect.x + delta)
@@ -254,6 +254,6 @@ while not exit_program:
     # Update the screen
     pygame.display.flip()
      
-    clock.tick(30)
+    clock.tick(200)
  
 pygame.quit()
