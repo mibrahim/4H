@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # --- Import libraries used for this program
 #
 # apt-get install python3 python3-pip git libfreetype6 \
@@ -5,7 +6,7 @@
 #		libsdl-mixer1.2-dev libsdl-ttf2.0-0 libsdl-ttf2.0-dev \
 #		libsdl1.2-dev  libsdl1.2debian libsdl2-2.0-0 \
 #		libsdl2-dev libsdl2-image-2.0-0 libsdl2-image-dev \
-#		libsdl2-mixer-2.0-0 libsdl2-mixer-dev
+#		libsdl2-mixer-2.0-0 libsdl2-mixer-dev libportmidi-dev libportmidi0
 #
 #
  
