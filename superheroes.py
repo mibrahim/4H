@@ -18,7 +18,7 @@ class SuperHero(Person):
 		self.specialTrait = specialTrait
 
 	def writeYourSpecialTraits(self):
-		print "My spcial trait is: " + self.specialTrait
+		print "My special trait is: " + self.specialTrait
 
 superMan = SuperHero()
 
