@@ -11,7 +11,8 @@ class Person:
 		print "... Nothing ..."
 
 class SuperHero(Person):
-	specialTrait = 'Super hero traits'
+	def __init__(self):
+		self.specialTrait = 'No super hero traits yet'
 
 	def setSpecialTraits(self, specialTrait):
 		self.specialTrait = specialTrait
